@@ -13,6 +13,7 @@
 		61B948C6224B169700151122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B948C5224B169700151122 /* Assets.xcassets */; };
 		61B948C9224B169700151122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B948C7224B169700151122 /* LaunchScreen.storyboard */; };
 		61B948CC224B169700151122 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B948CB224B169700151122 /* main.m */; };
+		61B948D5224B16C000151122 /* LLAlterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B948D3224B16C000151122 /* LLAlterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		61B948C8224B169700151122 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61B948CA224B169700151122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61B948CB224B169700151122 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61B948D3224B16C000151122 /* LLAlterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAlterView.m; sourceTree = "<group>"; };
+		61B948D4224B16C000151122 /* LLAlterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAlterView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,7 @@
 				61B948BD224B169600151122 /* AppDelegate.m */,
 				61B948BF224B169600151122 /* ViewController.h */,
 				61B948C0224B169600151122 /* ViewController.m */,
+				61B948D2224B16C000151122 /* AlterView */,
 				61B948C2224B169600151122 /* Main.storyboard */,
 				61B948C5224B169700151122 /* Assets.xcassets */,
 				61B948C7224B169700151122 /* LaunchScreen.storyboard */,
@@ -69,6 +73,15 @@
 				61B948CB224B169700151122 /* main.m */,
 			);
 			path = LLAlterView;
+			sourceTree = "<group>";
+		};
+		61B948D2224B16C000151122 /* AlterView */ = {
+			isa = PBXGroup;
+			children = (
+				61B948D3224B16C000151122 /* LLAlterView.m */,
+				61B948D4224B16C000151122 /* LLAlterView.h */,
+			);
+			path = AlterView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 				61B948C1224B169600151122 /* ViewController.m in Sources */,
 				61B948CC224B169700151122 /* main.m in Sources */,
 				61B948BE224B169600151122 /* AppDelegate.m in Sources */,
+				61B948D5224B16C000151122 /* LLAlterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
